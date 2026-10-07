@@ -16,7 +16,7 @@ const baseYears = currentYear - CONFIG.startYear;
 const expDisplay = currentMonth >= 6 ? `${baseYears}.5` : `${baseYears}`;
 
 export const profile = {
-  userName: "nvkdevs",
+  userName: "itsnvk ",
   kernel: `v${currentYear}.${currentMonth.toString().padStart(2, '0')}.${today.getDate().toString().padStart(2, '0')}`,
   socials: CONFIG.socials,
 
